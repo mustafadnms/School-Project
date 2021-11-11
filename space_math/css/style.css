@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../img/bg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+.block1{
+	border-style: solid;
+	border-width: 27px;
+	-moz-border-image: url(../img/cerceve1.png) 27 repeat;
+	-webkit-border-image: url(../img/cerceve1.png) 27 repeat;
+	-o-border-image: url(../img/cerceve1.png) 27 repeat;
+	border-image: url(../img/cerceve1.png) 27 repeat;
+	color:#FFF;
+	padding-top:10px;
+}
+
+	
+.block2{
+border-style: solid;
+border-width: 0px 75px 15px 27px;
+-moz-border-image: url(../img/cerceve3.png) 0 75 15 27 repeat;
+-webkit-border-image: url(../img/cerceve3.png) 0 75 15 27 repeat;
+-o-border-image: url(../img/cerceve3.png) 0 75 15 27 repeat;
+border-image: url(../img/cerceve3.png) 0 75 15 27 repeat;
+height: auto;
+color:#FFF;
+
+}
+
+.video{
+	width: 320px;
+	height: 457px;
+	}
+  
+.img:hover{
+	width: 200px;
+	height: 200px;
+	}
